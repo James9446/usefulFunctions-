@@ -76,3 +76,11 @@ function computeSquareRoot(num) {
 
 console.log(computeSquareRoot(200));
 
+// Print function - better than document.write ;)
+// index.html needs a div with id="output"
+
+function print(message) {
+	var outputDiv = document.getElementById('output')
+	outputDiv.innerHTML = message;
+}
+
