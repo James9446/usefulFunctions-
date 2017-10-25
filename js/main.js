@@ -1,4 +1,4 @@
-// Random Number Genorator
+a// Random Number Genorator
 function getRandomNumber(upper) {
 	if (isNaN(upper)) {
 		console.log("The argument \"" + upper + "\" that you entered into the getRandomNumber() function is not a number.")
@@ -78,6 +78,9 @@ console.log(computeSquareRoot(200));
 
 // Print function - better than document.write ;)
 // index.html needs a div with id="output"
+// You need to set message equal to a string with html opening and closing tags. It can have other variables of course and often uses += to keep adding stuff
+// This process is from treehouse
+// An example can be found in codify/week11/projects/week11-car-object-challenge
 
 function print(message) {
 	var outputDiv = document.getElementById('output')
